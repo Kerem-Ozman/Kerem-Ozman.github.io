@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #561993;
   color: #fff;
   padding: 12px 25px;
-  margin-left: 30px;
+  margin-left: 60px;
   color: #fff;
   line-height: 1;
   border-radius: 50px;
@@ -411,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .h2 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 991px) {
@@ -435,6 +435,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #561993;
   position: relative;
+  margin-bottom: 50px;
 }
 
 #hero .download-btn:hover {
@@ -455,6 +456,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   #hero {
     text-align: center;
+    padding: 105px 0 100px 0;
   }
   #hero .download-btn + .download-btn {
     margin: 0 10px;
@@ -471,11 +473,18 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    margin-bottom: 30px;
+  }
+  #hero .h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
   }
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   #hero .hero-img img {
     width: 70%;
