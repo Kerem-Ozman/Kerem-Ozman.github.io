@@ -133,7 +133,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   color: #0b6a36;
@@ -185,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  right: 0;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;

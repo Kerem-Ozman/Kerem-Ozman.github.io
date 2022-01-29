@@ -38,6 +38,26 @@
 
 <body>
 
+  <style>
+    @media (min-width: 992px) {
+      .navbar-dropdown-button {
+        padding: 10px 35px 10px 35px;
+        background: #561993; 
+        border-color: #561993;
+        border-radius: 30px;
+      }
+    }
+    @media (max-width: 992px) {
+      .navbar-dropdown-button {
+        margin: 0 10px 0 10px;
+        background: #561993; 
+        border-color: #561993;
+        border-radius: 30px;
+      }
+    }
+
+  </style>
+
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top  header-transparent ">
     <div class="container d-flex align-items-center justify-content-between">
@@ -55,17 +75,17 @@
           <!-- <li><a class="nav-link scrollto" href="#gallery">Arayüzler</a></li> -->
           <li><a class="nav-link scrollto" href="#faq">Sıkça Sorulan Sorular</a></li>
           <!-- <li><a class="nav-link scrollto" href="#contact">Abone Ol</a></li> -->
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown">
+            <a class="navbar-dropdown-button nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Takip Et
-            </button>
+            </a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li><a class="dropdown-item" href="https://www.instagram.com/sporsal.co/" target="_blank">Instagram</a></li>
               <li><a class="dropdown-item" href="https://www.facebook.com/Sporsal-106470868521329" target="_blank">Facebook</a></li>
               <li><a class="dropdown-item" href="https://twitter.com/sporsalco" target="_blank">Twitter</a></li>
               <li><a class="dropdown-item" href="https://t.me/sporsalco" target="_blank">Telegram</a></li>
             </ul>
-          </div>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -84,7 +104,7 @@
             <h2 class="h2">Türkiye'nin en sosyal spor platformuna katıl gelişmelerden haberdar ol, spor sohbetlerine dahil ol ve <b>2000 ₺'lik Nike hediye çekini kazanma şansını yakala!</b></h2>
             <!-- <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Çok Yakında</a>
             <a href="#" class="download-btn"><i class="bx bxl-apple"></i> Çok Yakında</a> -->
-            <a href="https://t.me/sporsalco" target="_blank" class="download-btn mb-4"><i class="bx bxl-telegram"></i> Topluluğa Katıl</a>
+            <a href="https://t.me/sporsalco" target="_blank" class="download-btn mb-4" style="background-color: #229ED9;"><i class="bx bxl-telegram"></i> Topluluğa Katıl</a>
             <h2><b>Sporsal Çok Yakında Google Play ve App Store'da!</b></h2>
           </div>
         </div>
